@@ -1,11 +1,11 @@
 #!/bin/bash
 
-expectedOutput="Please enter details in the correct order (i.e 5, dollars)"
+expectedOutput="Please enter in the valid format"
 
 javac CurrencyConverter.java
 out=$(java CurrencyConverter)
 
-outShrt=${out:0:58}
+outShrt=${out:0:32}
 
 if [[ "$outShrt" == "$expectedOutput" ]]
 then
