@@ -5,7 +5,7 @@ public class CurrencyConverter {
 
         public static void main(String[] args) {
 
-		if (args == null) {
+		if (args.length == 0) {
 			System.out.println("Please enter in the valid format: amount currency i.e. 5 dollars");
 			System.exit(0);
 		}
