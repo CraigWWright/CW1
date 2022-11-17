@@ -21,7 +21,7 @@ public class CurrencyConverter {
 			System.out.println("Please enter in the valid format: amount currency i.e. 5 dollars");
 			System.exit(0);
 		}
-		
+
 		amount = Integer.parseInt(args[0]);
                 String currency = args[1].toLowerCase();
 

@@ -2,6 +2,8 @@
 
 echo "Running program with correct inputs"
 ./correctInputs.sh
+echo "Running program with no arguments"
+./noArguments.sh
 echo "Running program with inputs in the wrong order"
 ./wrongFormat.sh
 echo "Running program with wrong value inputs"
